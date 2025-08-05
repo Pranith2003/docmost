@@ -1,7 +1,6 @@
 import { Group, Text } from "@mantine/core";
 import { CustomAvatar } from "@/components/ui/custom-avatar.tsx";
-import React from "react";
-import { User } from "server/dist/database/types/entity.types";
+import { User } from "../../../../server/dist/database/types/entity.types";
 
 interface UserInfoProps {
   user: User;
